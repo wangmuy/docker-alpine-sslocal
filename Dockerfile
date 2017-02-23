@@ -13,4 +13,3 @@ RUN apk --no-cache --update add privoxy \
 COPY start.sh /start.sh
 
 EXPOSE 1080 8118
-ENTRYPOINT ["/bin/sh", "-c"]
